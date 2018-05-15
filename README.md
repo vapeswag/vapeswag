@@ -65,4 +65,3 @@ This command serves the `es5-bundled` build version of the app:
 This command serves the `es6-unbundled` build version of the app:
 
     polymer serve build/es6-unbundled
-# vapeswag

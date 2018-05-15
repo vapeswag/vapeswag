@@ -29,7 +29,7 @@ handlers:
   upload: manifest.json
   secure: always
 
-- url: /.*
+- url: vapeswag/.*
   static_files: index.html
   upload: index.html
   secure: always

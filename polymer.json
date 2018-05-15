@@ -1,23 +1,23 @@
 {
-  "entrypoint": "vapeswag/index.html",
-  "shell": "vapeswag/src/shop-app.html",
+  "entrypoint": "index.html",
+  "shell": "src/shop-app.html",
   "fragments": [
-    "vapeswag/src/shop-list.html",
-    "vapeswag/src/shop-detail.html",
-    "vapeswag/src/shop-cart.html",
-    "vapeswag/src/shop-checkout.html",
-    "vapeswag/src/lazy-resources.html"
+    "src/shop-list.html",
+    "src/shop-detail.html",
+    "src/shop-cart.html",
+    "src/shop-checkout.html",
+    "src/lazy-resources.html"
   ],
   "sources": [
-    "vapeswag/src/**/*",
-    "vapeswag/data/**/*",
-    "vapeswag/images/**/*",
-    "vapeswag/bower.json"
+    "src/**/*",
+    "data/**/*",
+    "images/**/*",
+    "bower.json"
   ],
   "extraDependencies": [
-    "vapeswag/app.yaml",
-    "vapeswag/manifest.json",
-    "vapeswag/bower_components/webcomponentsjs/*"
+    "app.yaml",
+    "manifest.json",
+    "bower_components/webcomponentsjs/*"
   ],
   "lint": {
     "rules": ["polymer-2-hybrid"]
