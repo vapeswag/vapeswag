@@ -1,5 +1,5 @@
 {
-  "entrypoint": "index.html",
+  "entrypoint": "vapeswag/index.html",
   "shell": "vapeswag/src/shop-app.html",
   "fragments": [
     "vapeswag/src/shop-list.html",
