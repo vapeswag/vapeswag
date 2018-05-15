@@ -11,11 +11,9 @@
   "sources": [
     "src/**/*",
     "data/**/*",
-    "images/**/*",
-    "bower.json"
+    "images/**/*"
   ],
   "extraDependencies": [
-    "app.yaml",
     "manifest.json",
     "bower_components/webcomponentsjs/*"
   ],
@@ -28,6 +26,9 @@
     },
     {
       "preset": "es6-unbundled"
+    },
+    {
+      "preset": "es6-bundled"
     }
   ]
 }
