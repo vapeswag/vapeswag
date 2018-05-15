@@ -3,28 +3,28 @@ api_version: 1
 threadsafe: yes
 
 handlers:
-- url: /bower_components
+- url: vapeswag/bower_components
   static_dir: bower_components
   secure: always
 
-- url: /data
+- url: vapeswag/data
   static_dir: data
   secure: always
 
-- url: /images
+- url: vapeswag/images
   static_dir: images
   secure: always
 
-- url: /src
+- url: vapeswag/src
   static_dir: src
   secure: always
 
-- url: /service-worker.js
+- url: vapeswag/service-worker.js
   static_files: service-worker.js
   upload: service-worker.js
   secure: always
 
-- url: /manifest.json
+- url: vpaeswag/manifest.json
   static_files: manifest.json
   upload: manifest.json
   secure: always
